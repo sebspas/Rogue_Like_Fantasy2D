@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 382d1c0c2d348204abffeea1bcd239fd
+timeCreated: 1484502256
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FF6_iOS_Terra_Esper_Sprites_0
+    21300002: FF6_iOS_Terra_Esper_Sprites_1
+    21300004: FF6_iOS_Terra_Esper_Sprites_2
+    21300006: FF6_iOS_Terra_Esper_Sprites_3
+    21300008: FF6_iOS_Terra_Esper_Sprites_4
+    21300010: FF6_iOS_Terra_Esper_Sprites_5
+    21300012: FF6_iOS_Terra_Esper_Sprites_6
+    21300014: FF6_iOS_Terra_Esper_Sprites_7
+    21300016: FF6_iOS_Terra_Esper_Sprites_8
+    21300018: FF6_iOS_Terra_Esper_Sprites_9
+    21300020: FF6_iOS_Terra_Esper_Sprites_10
+    21300022: FF6_iOS_Terra_Esper_Sprites_11
+    21300024: FF6_iOS_Terra_Esper_Sprites_12
+    21300026: FF6_iOS_Terra_Esper_Sprites_13
+    21300028: FF6_iOS_Terra_Esper_Sprites_14
+    21300030: FF6_iOS_Terra_Esper_Sprites_15
+    21300032: FF6_iOS_Terra_Esper_Sprites_16
+    21300034: FF6_iOS_Terra_Esper_Sprites_17
+    21300036: FF6_iOS_Terra_Esper_Sprites_18
+    21300038: FF6_iOS_Terra_Esper_Sprites_19
+    21300040: FF6_iOS_Terra_Esper_Sprites_20
+    21300042: FF6_iOS_Terra_Esper_Sprites_21
+    21300044: FF6_iOS_Terra_Esper_Sprites_22
+    21300046: FF6_iOS_Terra_Esper_Sprites_23
+    21300048: FF6_iOS_Terra_Esper_Sprites_24
+    21300050: FF6_iOS_Terra_Esper_Sprites_25
+    21300052: FF6_iOS_Terra_Esper_Sprites_26
+    21300054: FF6_iOS_Terra_Esper_Sprites_27
+    21300056: FF6_iOS_Terra_Esper_Sprites_28
+    21300058: FF6_iOS_Terra_Esper_Sprites_29
+    21300060: FF6_iOS_Terra_Esper_Sprites_30
+    21300062: FF6_iOS_Terra_Esper_Sprites_31
+    21300064: FF6_iOS_Terra_Esper_Sprites_32
+    21300066: FF6_iOS_Terra_Esper_Sprites_33
+    21300068: FF6_iOS_Terra_Esper_Sprites_34
+    21300070: FF6_iOS_Terra_Esper_Sprites_35
+    21300072: FF6_iOS_Terra_Esper_Sprites_36
+    21300074: FF6_iOS_Terra_Esper_Sprites_37
+    21300076: FF6_iOS_Terra_Esper_Sprites_38
+    21300078: FF6_iOS_Terra_Esper_Sprites_39
+    21300080: FF6_iOS_Terra_Esper_Sprites_40
+    21300082: FF6_iOS_Terra_Esper_Sprites_41
+    21300084: FF6_iOS_Terra_Esper_Sprites_42
+    21300086: FF6_iOS_Terra_Esper_Sprites_43
+    21300088: FF6_iOS_Terra_Esper_Sprites_44
+    21300090: FF6_iOS_Terra_Esper_Sprites_45
+    21300092: FF6_iOS_Terra_Esper_Sprites_46
+    21300094: FF6_iOS_Terra_Esper_Sprites_47
+    21300096: FF6_iOS_Terra_Esper_Sprites_48
+    21300098: FF6_iOS_Terra_Esper_Sprites_49
+    21300100: FF6_iOS_Terra_Esper_Sprites_50
+    21300102: FF6_iOS_Terra_Esper_Sprites_51
+    21300104: FF6_iOS_Terra_Esper_Sprites_52
+    21300106: FF6_iOS_Terra_Esper_Sprites_53
+    21300108: FF6_iOS_Terra_Esper_Sprites_54
+    21300110: FF6_iOS_Terra_Esper_Sprites_55
+    21300112: FF6_iOS_Terra_Esper_Sprites_56
+    21300114: FF6_iOS_Terra_Esper_Sprites_57
+    21300116: FF6_iOS_Terra_Esper_Sprites_58
+    21300118: FF6_iOS_Terra_Esper_Sprites_59
+    21300120: FF6_iOS_Terra_Esper_Sprites_60
+    21300122: FF6_iOS_Terra_Esper_Sprites_61
+    21300124: FF6_iOS_Terra_Esper_Sprites_62
+    21300126: FF6_iOS_Terra_Esper_Sprites_63
+    21300128: FF6_iOS_Terra_Esper_Sprites_64
+    21300130: FF6_iOS_Terra_Esper_Sprites_65
+    21300132: FF6_iOS_Terra_Esper_Sprites_66
+    21300134: FF6_iOS_Terra_Esper_Sprites_67
+    21300136: FF6_iOS_Terra_Esper_Sprites_68
+    21300138: FF6_iOS_Terra_Esper_Sprites_69
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 143
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 143
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 143
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 144
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 144
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 144
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 145
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 95
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 96
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 96
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 99
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 96
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 48
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 48
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 48
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 50
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 48
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 0
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FF6_iOS_Terra_Esper_Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

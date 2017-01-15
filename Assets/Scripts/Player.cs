@@ -91,6 +91,12 @@ public class Player : MovingObject {
             SoundManager.instance.RandomizeSfx(drinkSound1, drinkSound2);
             other.gameObject.SetActive(false);
         } 
+
+        else if (other.tag == "Spell")
+        {
+            animator.SetTrigger("playerHit");
+            food--;
+        }
     }
 
     private void CheckIfGameOver()

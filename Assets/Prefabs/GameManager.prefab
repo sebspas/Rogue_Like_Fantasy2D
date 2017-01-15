@@ -85,7 +85,8 @@ MonoBehaviour:
   - {fileID: 1241634419123814, guid: ba626fe51b6b88f4488f14ce137dc7de, type: 2}
   - {fileID: 1593611360663110, guid: 320de8654dbd469458e018edcd3c587b, type: 2}
   - {fileID: 1564434855208258, guid: ba6e4c2cbf453f546994f4175d4816ee, type: 2}
-  - {fileID: 1588018477192240, guid: a21be4aeae21918479f5b07961414f87, type: 2}
+  - {fileID: 1325980149293986, guid: 53c17f998e0905748b141e22a6ab0726, type: 2}
+  - {fileID: 1003989333655916, guid: a21be4aeae21918479f5b07961414f87, type: 2}
   botOuterWall: {fileID: 1022101050159276, guid: bfc8e9c397c1f5846beccf9f4e370428,
     type: 2}
   topOuterWall: {fileID: 1059099333509114, guid: 2409223b708cdfd42a9726fbf5358575,
