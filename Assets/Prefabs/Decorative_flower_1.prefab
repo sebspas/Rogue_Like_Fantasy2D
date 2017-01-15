@@ -21,11 +21,10 @@ GameObject:
   - component: {fileID: 4010735251325104}
   - component: {fileID: 212130168328124092}
   - component: {fileID: 61713578571605658}
-  - component: {fileID: 114814828808616248}
   - component: {fileID: 95449429616040554}
   m_Layer: 0
   m_Name: Decorative_flower_1
-  m_TagString: Untagged
+  m_TagString: Deco
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,21 +73,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114814828808616248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1241634419123814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7a4b3b563e2fed43b0f76f5e3b6e407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dmgSprite: {fileID: 21300326, guid: fc63755ff791d1443998a57ef87dc001, type: 3}
-  hp: 4
-  chopSoound1: {fileID: 8300000, guid: 4c2332bc8245b474dad63074059bb755, type: 3}
-  chopSoound2: {fileID: 8300000, guid: f6aaac83be9e0493493aace800b76619, type: 3}
 --- !u!212 &212130168328124092
 SpriteRenderer:
   m_ObjectHideFlags: 1

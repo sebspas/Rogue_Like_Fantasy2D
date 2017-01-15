@@ -95,6 +95,7 @@ public class Player : MovingObject {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        print("OnTriggerEnter2D access");
         // collision
         // check the tag
         if (other.tag == "Exit")
@@ -119,19 +120,15 @@ public class Player : MovingObject {
             notificationText.text = "+" + pointsPerSoda + " hp";
             SoundManager.instance.RandomizeSfx(drinkSound1, drinkSound2);
             other.gameObject.SetActive(false);
-<<<<<<< HEAD
         } 
 
-        else if (other.tag == "Spell")
+        else if (other.tag == "Trap")
         {
-            animator.SetTrigger("playerHit");
-            food--;
-        }
-=======
+            notificationText.text = "-1 hp";
+            hp--;
         }
 
         UpdateInfos();
->>>>>>> 84f95e8004536d7acb42048ecdad3c858f64f890
     }
 
     private void CheckIfGameOver()

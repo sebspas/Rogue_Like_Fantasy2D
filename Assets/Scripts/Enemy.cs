@@ -69,6 +69,17 @@ public class Enemy : MovingObject {
         AttemptMove<Player>(xDir, yDir);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        print("OnTriggerEnter2D access");
+        // collision
+        // check the tag
+        if (other.tag == "Trap")
+        {
+            DamageEnemy(1);
+        }
+    }
+
     public void DamageEnemy(int loss)
     {
         print("Damage Enemy " + loss);
