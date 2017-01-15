@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class Player : MovingObject {
 
@@ -8,7 +9,10 @@ public class Player : MovingObject {
     public int pointsPerFood = 10;
     public int pointsPerSoda = 20;
     public float restartLevelDelay = 1f;
-    public Text foodText;
+
+    public Text notificationText;
+    public Text topBar;
+
     public AudioClip moveSound1;
     public AudioClip moveSound2;
     public AudioClip eatSound1;
@@ -20,6 +24,10 @@ public class Player : MovingObject {
 
     private Animator animator;
     private int food;
+    private int hp;
+    private int mp;
+    private int maxHp = 100;
+    private int maxMp = 50;
 
 
 	// Use this for initialization
@@ -28,8 +36,11 @@ public class Player : MovingObject {
         animator = GetComponent<Animator>();
 
         food = GameManager.instance.playerFoodPoints;
+        hp = GameManager.instance.playerHp;
+        mp = GameManager.instance.playerMp;
 
-        foodText.text = "Food : " + food;
+        notificationText.text = "";
+        topBar.text = "\t Hp : " + hp + "/100 \t Mp : " + mp + "/50";
 
         base.Start();
 	}
@@ -37,10 +48,21 @@ public class Player : MovingObject {
     public void OnDisable()
     {
         GameManager.instance.playerFoodPoints = food;
+        GameManager.instance.playerHp = hp;
+        GameManager.instance.playerMp = mp;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    internal void LoseHp(int loss)
+    {
+        animator.SetTrigger("playerHit");
+        hp -= loss;
+        notificationText.text = "Vous perdez " + loss + "hp.";
+
+        CheckIfGameOver();
+    }
+
+    // Update is called once per frame
+    void Update () {
         //If it's not the player's turn, exit the function.
         if (!GameManager.instance.playersTurn) return;
 
@@ -67,6 +89,8 @@ public class Player : MovingObject {
             //Pass in horizontal and vertical as parameters to specify the direction to move Player in.
             AttemptMove<Wall>(horizontal, vertical);
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -80,16 +104,22 @@ public class Player : MovingObject {
             enabled = false;
         } else if (other.tag == "Food")
         {
-            food += pointsPerFood;
-            foodText.text = "+" + pointsPerFood + " Food : " + food;
+
+            hp += pointsPerFood;
+            notificationText.text = "+" + pointsPerFood + " hp";
+            if (hp > maxHp)
+                hp = maxHp;
             SoundManager.instance.RandomizeSfx(eatSound1, eatSound2);
             other.gameObject.SetActive(false);
         } else if (other.tag == "Soda")
         {
-            food += pointsPerSoda;
-            foodText.text = "+" + pointsPerSoda + " Food : " + food;
+            hp += pointsPerSoda;
+            if (hp > maxHp)
+                hp = maxHp;
+            notificationText.text = "+" + pointsPerSoda + " hp";
             SoundManager.instance.RandomizeSfx(drinkSound1, drinkSound2);
             other.gameObject.SetActive(false);
+<<<<<<< HEAD
         } 
 
         else if (other.tag == "Spell")
@@ -97,11 +127,16 @@ public class Player : MovingObject {
             animator.SetTrigger("playerHit");
             food--;
         }
+=======
+        }
+
+        UpdateInfos();
+>>>>>>> 84f95e8004536d7acb42048ecdad3c858f64f890
     }
 
     private void CheckIfGameOver()
     {
-        if (food <= 0)
+        if (hp <= 0)
         {
             //Call the GameOver function of GameManager.
             SoundManager.instance.PlaySingle(gameOverSound);
@@ -113,38 +148,69 @@ public class Player : MovingObject {
     protected override void AttemptMove<T>(int xDir, int yDir)
     {
         // lose food on move
-        food--;
-        foodText.text = "Food : " + food;
+        /*food--;
+        notificationText.text = "Food : " + food;*/
+        notificationText.text = "";
 
         base.AttemptMove<T>(xDir, yDir);
-
         RaycastHit2D hit;
-        if (Move (xDir,yDir, out hit))
+        bool cantMove = Move(xDir, yDir, out hit);
+
+        if (hit.transform != null)
+        {
+            T hitComponent = hit.transform.GetComponent<T>();
+            //print(hit.transform);
+            //print(hitComponent)
+
+            // we try if it's an enemy
+            if (!cantMove && hitComponent == null && hit.transform.GetComponent<Enemy>() != null)
+                OnCantMove(hit.transform.GetComponent<Enemy>());
+            else if (!cantMove && hitComponent != null)
+                OnCantMove(hitComponent);                            
+        }
+
+        
+        RaycastHit2D hit2;
+        if (Move (xDir,yDir, out hit2))
         {
             SoundManager.instance.RandomizeSfx(moveSound1, moveSound2);
         }
 
+        UpdateInfos();
         CheckIfGameOver();
 
         GameManager.instance.playersTurn = false;
     }
 
+    public void UpdateInfos()
+    {
+        topBar.text = "\t Hp : " + hp + "/100 \t Mp : " + mp + "/50";
+    }
+
     protected override void OnCantMove<T>(T component)
     {
-        Wall hitWall = component as Wall;
-        hitWall.DamageWall(wallDamage);
+        if (component.tag == "Wall")
+        {
+            Wall hitWall = component as Wall;
+            hitWall.DamageWall(wallDamage);
+        } else if (component.tag == "Enemy")
+        {
+            Enemy enemy = component as Enemy;
+            enemy.DamageEnemy(1);
+        }
+
         // change animation trigger
         animator.SetTrigger("playerChop");
     }
 
-    public void LoseFood(int loss)
+    /*public void LoseFood(int loss)
     {
         animator.SetTrigger("playerHit");
         food -= loss;
         foodText.text = "-" + loss + " Food : " + food;
         
         CheckIfGameOver();
-    }
+    }*/
 
     private void Restart()
     {
