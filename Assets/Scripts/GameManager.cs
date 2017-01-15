@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour {
 
@@ -10,7 +11,11 @@ public class GameManager : MonoBehaviour {
     public float turnDelay = .1f;
     public static GameManager instance = null;
     public BoardManager boardScript;
+
     public int playerFoodPoints = 100;
+    public int playerHp = 100;
+    public int playerMp = 50;
+
     [HideInInspector] public bool playersTurn = true;
 
     // first level with enemy
@@ -61,6 +66,11 @@ public class GameManager : MonoBehaviour {
     {
         //Tell our 'OnLevelFinishedLoading' function to stop listening for a scene change as soon as this script is disabled. Remember to always have an unsubscription for every delegate you subscribe to!
         SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    public void RemoveEnemies(Enemy enemy)
+    {
+        enemies.Remove(enemy);
     }
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)

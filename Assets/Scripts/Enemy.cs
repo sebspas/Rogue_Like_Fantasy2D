@@ -13,6 +13,8 @@ public class Enemy : MovingObject {
     public AudioClip enemyAttack1;
     public AudioClip enemyAttack2;
 
+    public int hp = 3;
+
     // Use this for initialization
     protected override void Start()
     {
@@ -29,7 +31,9 @@ public class Enemy : MovingObject {
 
         animator.SetTrigger("EnemyAttack");
 
-        hitPlayer.LoseFood(playerDamage);
+        //hitPlayer.LoseFood(playerDamage);
+        hitPlayer.LoseHp(playerDamage);
+        hitPlayer.UpdateInfos();
 
         SoundManager.instance.RandomizeSfx(enemyAttack1, enemyAttack2);
     }
@@ -63,5 +67,16 @@ public class Enemy : MovingObject {
         }
 
         AttemptMove<Player>(xDir, yDir);
+    }
+
+    public void DamageEnemy(int loss)
+    {
+        print("Damage Enemy " + loss);
+        hp -= loss;
+        if (hp <= 0)
+        {
+            gameObject.SetActive(false);
+            GameManager.instance.RemoveEnemies(this);            
+        }
     }
 }

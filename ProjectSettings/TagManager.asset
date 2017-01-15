@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Soda
   - Spell
+  - Wall
   layers:
   - Default
   - TransparentFX

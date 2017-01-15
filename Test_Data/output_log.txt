@@ -7,45 +7,33 @@ Direct3D:
     VRAM:     3072 MB
     Driver:   21.21.13.7633
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.044 seconds
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Administrateur\Documents\RogueLike2D\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Administrateur\OneDrive\Documents\Unity\Rogue_Like_D_Fantasy\Test_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.033635 ms
+UnloadTime: 1.011344 ms
 Hi
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-restart
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.729557 ms
-NullReferenceException: Object reference not set to an instance of an object
-  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+UnloadTime: 2.754544 ms
 
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 444.
-Total: 0.214738 ms (FindLiveObjects: 0.021985 ms CreateObjectMapping: 0.018672 ms MarkObjects: 0.170164 ms  DeleteObjects: 0.003614 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 0.414115 ms (FindLiveObjects: 0.080112 ms CreateObjectMapping: 0.023792 ms MarkObjects: 0.305090 ms  DeleteObjects: 0.004517 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3b8 -> priority: 1 
+  Thread -> id: 2974 -> priority: 1 
