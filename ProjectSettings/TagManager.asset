@@ -10,6 +10,8 @@ TagManager:
   - Soda
   - Spell
   - Wall
+  - Deco
+  - Trap
   layers:
   - Default
   - TransparentFX

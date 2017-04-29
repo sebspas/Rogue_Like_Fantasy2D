@@ -81,6 +81,7 @@ MonoBehaviour:
   enemyTiles:
   - {fileID: 1855005158426554, guid: 2cbde8fffde077442af6e6f4d55c97a9, type: 2}
   - {fileID: 1323141693476552, guid: 181404f4b59e59f439a718331243721d, type: 2}
+  - {fileID: 1152927313616814, guid: 82dd6310e6b55d34c81c0c738f695146, type: 2}
   decorativeTiles:
   - {fileID: 1241634419123814, guid: ba626fe51b6b88f4488f14ce137dc7de, type: 2}
   - {fileID: 1593611360663110, guid: 320de8654dbd469458e018edcd3c587b, type: 2}
@@ -110,4 +111,6 @@ MonoBehaviour:
   turnDelay: 0.1
   boardScript: {fileID: 0}
   playerFoodPoints: 100
+  playerHp: 100
+  playerMp: 50
   playersTurn: 1

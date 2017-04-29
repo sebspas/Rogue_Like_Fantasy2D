@@ -90,4 +90,39 @@ public class Enemy : MovingObject {
             GameManager.instance.RemoveEnemies(this);            
         }
     }
+
+    // to change sprite anim depending on direction of pnj
+    // Update is called once per frame
+    void Update()
+    {
+
+        var vertical = Input.GetAxis("Vertical");
+        var horizontal = Input.GetAxis("Horizontal");
+
+        if (vertical > 0)
+        {
+            animator.SetFloat("vertical", 1.0f);
+            animator.SetFloat("horizontal", 0.0f);
+        }
+        else if (vertical < 0)
+        {
+            animator.SetFloat("vertical", -1.0f);
+            animator.SetFloat("horizontal", 0.0f);
+        }
+        else if (horizontal < 0)
+        {
+            animator.SetFloat("vertical", 0.0f);
+            animator.SetFloat("horizontal", -1.0f);
+        }
+        else if (horizontal > 0)
+        {
+            animator.SetFloat("vertical", 0.0f);
+            animator.SetFloat("horizontal", 1.0f);
+        }
+        else
+        {
+            animator.SetFloat("vertical", 0.0f);
+            animator.SetFloat("horizontal", 0.0f);
+        }
+    }
 }

@@ -114,14 +114,15 @@ MonoBehaviour:
   pointsPerFood: 10
   pointsPerSoda: 20
   restartLevelDelay: 1
-  foodText: {fileID: 0}
-  moveSound1: {fileID: 0}
-  moveSound2: {fileID: 0}
-  eatSound1: {fileID: 0}
-  eatSound2: {fileID: 0}
-  drinkSound1: {fileID: 0}
-  drinkSound2: {fileID: 0}
-  gameOverSound: {fileID: 0}
+  notificationText: {fileID: 0}
+  topBar: {fileID: 0}
+  moveSound1: {fileID: 8300000, guid: 892962212a4b74d1c9f578a3b6ea6439, type: 3}
+  moveSound2: {fileID: 8300000, guid: a826bc3d758db43d6ae9caf415b63d1d, type: 3}
+  eatSound1: {fileID: 8300000, guid: 1cb61f83d60374c7389bb547431919e3, type: 3}
+  eatSound2: {fileID: 8300000, guid: 062161c1897a54088a5430f8c197e1b8, type: 3}
+  drinkSound1: {fileID: 8300000, guid: b6b608537288246c9a464915db27bf52, type: 3}
+  drinkSound2: {fileID: 8300000, guid: bcb9dda73ee914d3e8f252895f73f461, type: 3}
+  gameOverSound: {fileID: 8300000, guid: e2beefeb2273f4efe992adf5b8d67c29, type: 3}
 --- !u!212 &212611349266591884
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -153,7 +154,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -900995045
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300102, guid: 10d3d4346a9ff674da94ede587f30f73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
